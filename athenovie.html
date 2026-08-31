@@ -7,12 +7,14 @@
     <title>Athenovie</title>
 </head>
 <body>
+    <!-- cabeçalho -->
     <header>
         <div class="logo">
             <img src="./src/assets/img/athenovie.png" alt="Athenovie">
         </div>
         <nav>
             <ul>
+                <!-- o <a> é uma tag de link -->
                 <li><a href="#sobre">Sobre nós</a></li>
                 <li><a href="#servicos">Serviços</a></li>
                 <li><a href="#cases">Cases</a></li>
@@ -20,9 +22,58 @@
             </ul>
         </nav>
     </header>
-    <div class="banner">
-        <h1>Tecnologia pensada para sua vida</h1>
-        <p>Criamos soluções digitais poderosas que impulsionam o crescimento e a inovação do seu negócio.</p>
-    </div>
+
+    <!-- hero (primeira seção de destaque da página) -->
+    <section class="hero">
+        <div class="container hero-content">
+            <!-- span usado para destacar uma parte especifica do paragrafo -->
+            <h1>Tecnologia pensada para a <span>sua vida</span></h1>
+            <p>Criamos soluções digitais poderosas que impulsionam o crescimento e a inovação do seu negócio.</p>
+            <div class="hero-buttons">
+                <a href="#serviços" class="btn btn-primary">Nossos prudutos</a>
+                <a href="#cases" class="btn btn-outline">Nossos trabalhos</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- quem somos nós -->
+    <!-- id linkada com a tag <a>, class usada p estilização -->
+    <section id="sobre" class="about"> 
+        <div class="container about-content">
+            <div class="about-text">
+                <p class="section-label">— Quem Somos Nós</p>
+                <h2>Especialistas em <span>inovação digital</span></h2>
+                <p>A Athenovie é uma empresa de tecnologia especializada em transformação digital e gamificação. Desenvolvemos soluções inovadoras que fortalecem a presença digital de empresas de todos os portes, unindo tecnologia, design, estratégia e experiências gamificadas para aumentar o engajamento de usuários e equipes. Nosso foco é criar soluções personalizadas, eficientes e de alto impacto, impulsionando o crescimento, a inovação e resultados duradouros para nossos clientes.</p>
+            </div>
+            <div class="about-image">
+                <img src="" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- nossos serviços -->
+    <section id="serviços" class="services">
+        <div class="container">
+            <p class="section-label center">— O que Fazemos</p>
+            <h2 class="center">Nossos <span>serviços</span></h2>
+            <div class="service-grid">
+                <div class="service-card">
+                    <img src="" alt="">
+                    <h3>Aplicativos Móveis</h3>
+                    <p>Sites personalizadoss, otimizados para desempenho e experiência do usuário.</p>
+                </div>
+                <div class="service-card">
+                    <img src="" alt="">
+                    <h3>Sistemas Web</h3>
+                    <p>Lojas online completas com integração de pagamento segura e gerenciamento de estoque.</p>
+                </div>
+                <div class="service-card">
+                    <img src="" alt="">
+                    <h3>Games</h3>
+                    <p>Jogos digitais sob medida, com foco em criatividade, desempenho e experiência do usuário.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
