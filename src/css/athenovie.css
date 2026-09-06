@@ -301,6 +301,7 @@ nav .contato {
 
 .value-card p {
     font-size: 19px;
+<<<<<<< HEAD
 }
 
 /* ----- SEÇÃO CONHEÇA NOSSO TIME ----- */
@@ -532,4 +533,6 @@ nav .contato {
     padding-top: 24px;
     border-top: 1px solid rgba(255, 255, 255, 0.2);
     opacity: 0.85;
+=======
+>>>>>>> 9b2faf95bedc2f103712e2b24e0a6d583ceb1277
 }
