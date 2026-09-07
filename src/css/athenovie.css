@@ -53,12 +53,13 @@ h1, h2, h3 {
     display: inline-block;
     padding: 14px 28px;
     border-radius: 30px;
-    font-weight: 800;
+    font-weight: 700;
     font-size: 18px;
 }
 
 .btn-primary {
     background-color: var(--amarelo);
+    color: var(--preto);
 }
 
 .btn-outline {
@@ -93,7 +94,7 @@ nav ul {
 nav a {
     text-decoration: none;
     color: black;
-    font-weight: 800;
+    font-weight: 700;
     font-size: 18px;
 }
 
@@ -112,7 +113,7 @@ nav .contato {
 }
 
 .hero-content h1 {
-    font-size: 56px;
+    font-size: 54px;
     color: var(--branco);
     max-width: 700px;
     margin: 0 0 16px 0;
@@ -149,7 +150,7 @@ nav .contato {
 }
 
 .about-text h2 {
-    font-size: 54px;
+    font-size: 44px;
     margin-bottom: 20px;
 }
 
@@ -172,7 +173,7 @@ nav .contato {
 }
 
 .services h2 {
-    font-size: 54px;
+    font-size: 44px;
     margin-bottom: 48px;
 }
 
@@ -213,7 +214,7 @@ nav .contato {
 }
 
 .portfolio h2 {
-    font-size: 54px;
+    font-size: 44px;
     margin-bottom: 48px;
 }
 
@@ -270,7 +271,7 @@ nav .contato {
 }
 
 .values h2 {
-    font-size: 54px;
+    font-size: 44px;
     max-width: 700px;
     margin: 0 auto 48px;
 }
@@ -301,7 +302,6 @@ nav .contato {
 
 .value-card p {
     font-size: 19px;
-<<<<<<< HEAD
 }
 
 /* ----- SEÇÃO CONHEÇA NOSSO TIME ----- */
@@ -313,7 +313,7 @@ nav .contato {
 }
 
 .team h2 {
-    font-size: 54px;
+    font-size: 44px;
     max-width: 700px;
     margin: 0 auto;
 }
@@ -344,7 +344,7 @@ nav .contato {
 
 .depoimentos h2 {
     color: var(--branco);
-    font-size: 54px;
+    font-size: 44px;
     margin-bottom: 48px;
 }
 
@@ -382,11 +382,9 @@ nav .contato {
 }
 
 .autor-depoimento img {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
+    width: 40px;
+    height: 40px;
     object-fit: cover;
-    background-color: var(--cinza);
 }
 
 .autor-name {
@@ -408,13 +406,14 @@ nav .contato {
 }
 
 .process h2 {
-    font-size: 54px;
+    font-size: 44px;
     margin-bottom: 16px;
+    font-weight: 700;
 }
 
 .process-text {
     font-size: 19px;
-    color: #555555;
+    color: var(--preto);
     max-width: 700px;
     margin: 0 auto 48px;
 }
@@ -462,8 +461,8 @@ nav .contato {
 }
 
 .process-card p {
-    font-size: 17px;
-    color: #555555;
+    font-size: 19px;
+    color: var(--preto);
 }
 
 /* ----- SEÇÃO CHAMADA PARA AÇÃO (CTA) ----- */
@@ -475,13 +474,14 @@ nav .contato {
 
 .cta h2 {
     color: var(--branco);
-    font-size: 48px;
+    font-size: 44px;
     margin-bottom: 16px;
 }
 
 .cta p {
     color: var(--branco);
-    font-size: 20px;
+    font-size: 22px;
+    font-weight: 600;
     margin-bottom: 32px;
 }
 
@@ -516,15 +516,12 @@ nav .contato {
 
 .social-icons {
     display: flex;
-    gap: 16px;
+    gap: 10px;
 }
 
 .social-icons img {
-    width: 36px;
-    height: 36px;
-    border-radius: 50%;
-    background-color: var(--branco);
-    padding: 8px;
+    width: 60px;
+    height: 60px;
 }
 
 .copyright {
@@ -533,6 +530,4 @@ nav .contato {
     padding-top: 24px;
     border-top: 1px solid rgba(255, 255, 255, 0.2);
     opacity: 0.85;
-=======
->>>>>>> 9b2faf95bedc2f103712e2b24e0a6d583ceb1277
 }
